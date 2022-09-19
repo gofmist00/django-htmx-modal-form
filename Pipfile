@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 django = "==3.2.*"
 django-widget-tweaks = "==1.4.*"
+gunicorn = "==20.0.4"
 
 [dev-packages]
 autopep8 = "*"
@@ -16,3 +17,4 @@ python_version = "3.9"
 [scripts]
 migrate = "python manage.py migrate"
 server = "python manage.py runserver"
+generate_staticfiles = "python manage.py collectstatic"

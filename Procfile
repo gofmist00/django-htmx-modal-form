@@ -1,0 +1,1 @@
+web: django_htmx_modal_form.wsgi --log-file -
